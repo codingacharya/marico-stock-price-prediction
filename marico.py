@@ -10,7 +10,7 @@ from datetime import date, timedelta
 st.title("📈 Stock Price Prediction App")
 
 # User Input: Stock Symbol
-stock_symbol = st.text_input("Enter Stock Symbol (e.g., AAPL, TSLA)", "AAPL").upper()
+stock_symbol = st.text_input("Enter Stock Symbol (e.g., AAPL, TSLA)", "MARICO.NS").upper()
 
 # User Input: Prediction Days
 n_days = st.slider("Select number of days for prediction:", 1, 30, 7)
